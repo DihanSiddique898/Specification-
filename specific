@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Specifications</title>
+  <style>
+    table{
+      border-collapse:collapse ;
+      text-align: center;
+    }
+    thead,tbody{
+      padding: 7px 6px ;
+    }
+    .color{
+      background-color: black;
+      color: white;
+      font-family: ;
+    }
+  </style>
+</head>
+<body>
+  <table border="1px">
+    <thead>
+      <tr class="color">
+        <td><b>Functing</b></td>
+        <td><b>Range</b></td>
+        <td><b>Resolution</b></td>
+        <td><b>Accuracy</b></td>
+        <td><b>Overload protection</b></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5">DCV</td>
+        <td>200mV</td>
+        <td>100uV</td>
+        <td rowspan="5">&#177(0.5%rdg+2dgts)</td>
+        <td>500VDC/350VAC</td>
+      </tr>
+      <tr>
+        <td>2000mV</td>
+        <td>1mV</td>
+        <td rowspan="4">1000VDC/750VAC</td>
+      </tr>
+       <tr>
+        <td>20V</td>
+        <td>10mV</td>
+      </tr>
+       <tr>
+        <td>200V</td>
+        <td>100mV</td>
+      </tr>
+      <tr>
+        <td>1000V</td>
+        <td>1V</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
